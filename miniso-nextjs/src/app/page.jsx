@@ -13,6 +13,9 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <div className="m-0 font-roboto">
+      {/* Hidden accessible heading */}
+      <h1 className="sr-only">Miniso Home Page</h1>
+
       <Header />
       <Navbar />
       <HeroBanner />
