@@ -17,7 +17,11 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"
         />
       </head>
-      <body>{children}</body>
+      <body>
+        {/* Hidden accessible heading */}
+        <h1 className="sr-only">Miniso Home Page</h1>
+
+        {children}</body>
     </html>
   );
 }
